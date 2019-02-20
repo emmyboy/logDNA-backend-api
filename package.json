@@ -1,0 +1,21 @@
+{
+  "name": "logDNA-test",
+  "version": "1.0.0",
+  "description": "Just a test rest api to showcase for LogDNA",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js",
+    "test": "mocha test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.github.com/emmyboy/logDNA-test"
+  },
+  "author": "emmyboy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "request": "^2.85.0"
+  }
+}
